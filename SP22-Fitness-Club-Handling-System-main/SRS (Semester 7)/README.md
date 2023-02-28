@@ -1,0 +1,1 @@
+Upload complete SRS document (a pdf file) and its Power Point Slides (presentation) in this folder.[FITNESS CLUB HANDLING SYSTEM SRS.pdf](https://github.com/CUI-FYPs/SP22-Fitness-Club-Handling-System/files/9142905/FITNESS.CLUB.HANDLING.SYSTEM.SRS.pdf)

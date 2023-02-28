@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 980px;
+    margin: auto;
+}
+
+/* Before #3e49b3 */
+
+nav {
+    background: #27314b !important;
+}
+
+nav .brand-logo {
+    font-family: 'Cinzel', serif;
+    text-indent: 10px;
+}
+
+nav a.btn {
+    background: #dbdbdb !important;
+    color: #0d0d0d !important;
+}
+
+nav ul li a {
+    font-size: 15px !important;
+    letter-spacing: 1px;
+}
+
+.main_bg {
+    width: 100%;
+    height: 450px;
+}
+
+h4.heading {
+    font-family: 'Julius Sans One', sans-serif;
+    background: #27314b;
+    color: #fff;
+    padding: 10px 0px 12px 0px;
+    letter-spacing: 1px;
+}
+
+.footer {
+    background: #27314b;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}
+
+
+/********************************
+*** Admin Area Complete ***
+********************************/
+
+.admin_bar {
+    background: #27314b;
+    margin-bottom: 10px !important;
+    padding: 15px 0 !important;
+}
+
+.admin_bar span {
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-left: 18px;
+}
+
+.admin_bar a {
+    float: right;
+    color: #fff;
+    margin-right: 18px;
+}
+
+
+/********************************
+*** Category Page Navbar ***
+********************************/
+
+/*--(1.1 Categories List)--*/
+
+ul.cat_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #dbdbdb;
+}
+  
+ul.cat_list li a {
+    display: block;
+    color: #0d0d0d;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+  
+ul.cat_list li a:hover {
+    background-color: #27314b;
+    color: #fff;
+}
+
+
+ul.cat_list li.active > a {
+    background: #27314b;
+    color: #fff;
+}
+
+
+/* ********** */
+
+[type="submit"].submit {
+    font-family: 'Cinzel', sans-serif;
+    width: 100%;
+    background: orangered;
+    color: #fff;
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 5px 0px;
+}
+
+
+/*--(3 Insert Product Page Table of Inputs)--*/
+
+.add_product table {
+    width: 495px; 
+    margin: auto;
+}
+
+/*--(4 Insert Product Page Inputs)--*/
+
+.add_product table [type="text"] {
+    position: relative;
+    top: -6px;
+    padding: 0 !important;
+}
+
+/*--(5 Insert Product Page Insert Product Btn)--*/
+
+.add_product table [type="submit"] {
+    width: 100%;
+    height: 40px;
+    background: #232323;
+    color: #fff;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.view_table table th {
+    text-align: center;
+    background: #dbdbdb;
+    color: #232323;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.view_table table td {
+    text-align: center;
+}
+
+.view_table table tr:nth-of-type(odd) {
+    background: #f2f2f2;
+}
+
+
+/* **************** */
+
+.course_grid {
+    padding: 20px 10px !important;
+    border-radius: 10px;
+    background: #dbdbdb;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    margin-bottom: 10px !important;
+}
+
+.course_grid img {
+    width: 100% !important;
+    height: 135px;
+    border-radius: 5px;
+}
+
+.course_grid .name {
+    display: block;
+    background: #232323;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.course_grid span.fee {
+    display: block;
+    font-size: 16px;
+    padding: 6px 0px 4px 0px;
+    background: #fff;
+    /* border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    margin-top: 3px;
+    text-align: center;
+    color: #181818;
+}
+
+.course_grid a.enroll {
+    display: block !important;
+    background: #27314b;
+    color: #fff;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 18px;
+    padding: 4px 0px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+a.view_all {
+    color: #181818;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #232323;
+    margin-top: 5px;
+}
+
+
+/* ********************* */
+
+
+
+.customer_account_page table td {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: #4a4a4a;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 12px;
+}
+
+/*--(2.1 Login/Register Page Inputs Style)--*/
+
+.customer_account_page table td [type="text"],
+.customer_account_page table td [type="email"],
+.customer_account_page table td [type="password"] {
+    color: #4a4a4a;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/*--(2.2 Login/Register Page Inputs Placeholder)--*/
+
+.customer_account_page table td [type="text"]::placeholder,
+.customer_account_page table td [type="email"]::placeholder,
+.customer_account_page table td [type="password"]::placeholder {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #4a4a4a;
+    text-transform: capitalize;
+}
+
+/*--(3 Login/Register Page, Login/SignUp Button)--*/
+
+.customer_account_page [type="submit"] {
+    width: 100%;
+    height: 35px;
+    background: #232323;
+    color: #fff;
+    border: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+/********************************
+*** Admin Login Panel ***
+********************************/
+
+body.login {
+    background: #27314b;
+    min-height: 100vh;
+}
+
+.login_panel {
+    width: 50%;
+    margin: auto;
+    padding-top: 10vh;
+}
+
+.login_panel h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #dbdbdb;
+    text-transform: capitalize;
+}
+
+.login_panel [type="text"],
+.login_panel [type="password"] {
+    font-family: sans-serif;
+    color: #dbdbdb;
+    letter-spacing: 1px;
+}
+
+.login_panel [type="submit"] {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background: #dbdbdb;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
